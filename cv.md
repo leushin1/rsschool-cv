@@ -7,3 +7,5 @@ Employment: full time
 Work schedule: full day
 Engineer
 Work experience 6 years 4 months
+December 2018 — currently ПАО «ТГК-1»
+Saint Petersburg, www.tgc1.ru
