@@ -6,3 +6,4 @@ Saint Petersburg, metro station Leninskiy Prospekt, willing to relocate, prepare
 Employment: full time
 Work schedule: full day
 Engineer
+Work experience 6 years 4 months
