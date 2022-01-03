@@ -4,21 +4,88 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="style.css" rel="stylesheet">
-    <title>CV</title>
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
-        <h1>Leushin Sergei Nikolaevich</h1>
+        <div class="container">
+            <nav class="nav">
+                <ul class="nav-list">
+                  <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                  <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                  <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                  <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                  <li class="nav-item"><a href="#courses" class="nav-link">Courses</a></li>
+                  <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+                  <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                  <li class="nav-item"><a href="#english" class="nav-link">English</a></li>
+                </ul>
+              </nav>
+        </div>
     </header>
     <main>
-        <img class="avatar" src="I.jpeg" alt="avatar">
-        <section class="personal data">Male, 29 years, born on 26 July 1992</section> 
-        <section class="contacts data">+7 (981) 872-39-76 — preferred means of communication <a href="leushin1992@gmail.com">Email address</a></section> 
-        <section class="location data"></section> 
+        <div class="container main-container">
+            <section class="section" id="profile">
+                <div class="section-title">
+                    <img src="I.jpeg" alt="my avatar" class="profile-logo">
+                    <div>
+                    <h1>Leushin Sergei</h1>
+                    <h2>Junior front-end developer</h2>
+                    </div>
+                </div>
+            </section>
+            <section class="section" id="contacts">
+                <h2 class="section-title">Contacts</h2>
+                    <ul>
+                        <li>Saint petersburg</li>
+                        <li>Email: leushin1992@gmail.com</li>
+                        <li>Github: leushin1</li>
+                        <li>Discord: leushin1</li>               
+                    </ul>
+            </section>
+            <section class="section" id="summary">
+                <h2 class="section-title">Summary</h2>
+                <p>I really like the front end</p>
+            </section>
+            <section class="section" id="skills">
+                <h2 class="section-title">Skills</h2>
+                <p>HTML5, CSS3</p>
+            </section>
+            <section class="section" id="code">
+                <h2 class="section-title">Code</h2>
+                <pre class="pre"><code>console.log('Hello, World!');
+                  </code></pre>
+            </section>
+            <section class="section" id="courses">
+                <h2 class="section-title">Сourses</h2>
+                <p>Htmlacademy</p>
+            </section>
+            <section class="section" id="projects">
+                <h2 class="section-title">Projects</h2>
+                <a href="https://leushin1.github.io/rsschool-cv/">CV</a>
+            </section>
+            <section class="section" id="education">
+                <h2 class=".section-title">Education</h2>
+                <p>Odessa National Technical University</p>
+            </section>
+            <section class="section" id="languages">
+                <h2 class="section-title">Languages</h2>
+                <p>B1 - Pre-Intermediate</p>
+            </section>   
+        </div>
     </main>
     <footer>
-        <section class="key words">MS office, AutoCAD, responsibility</section>
+        <div class="container footer">
+            <div class="container footer-container">
+                <div>© 2022 <a href="https://github.com/leushin1" class="github nav-link">leushin1</a></div>
+                <div><a href="https://rs.school/js/" class="rss"><img src="assets/svg/rss.svg" width="121" height="45" alt="logo"></a></div>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
