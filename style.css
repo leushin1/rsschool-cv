@@ -9,81 +9,94 @@ body {
     margin: 0; padding: 0;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    justify-content: space-between;
 }
 
 .profile-logo {
 
-    width: 150px;
-    height: 150px;
-    
+    width: 120px;
+    border-radius: 30px;
+  
   }
 
-  /* .rss {
-    width: 121px;
-    height: 45px;
-    background-image: url();
-    background-size: contain;
-    background-repeat: no-repeat;
-} */
-
-.nav-list {
-    display: flex;
-    /* justify-content: flex-end; */
-    align-items: center;
-  }
-
-.container {
+  .container {
     max-width: 1440px;
     margin: 0 auto;
   }
 
 
-
-html {
-    scroll-behavior: smooth; 
-  }
+.contact {
+  list-style: none;
+  padding: 0;
+}
 
   .nav-list {
     list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
   }
 
   .nav-link {
     padding: 0 20px;
     line-height: 50px;
-  }  
-
-  .nav-link {
-    transition: .3s;
+    text-decoration: none;
   }
 
   .main-container {
     display: flex;
     flex-wrap: wrap;
+    
   }
   
   .section {
     width: 50%;
+    
   }
+
 
   @media (max-width: 768px) {
     .section {
       width: 100%;
     }
-  
+  }
+
+  .leushin {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+  }
+
+  .my-profil {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center;
+    flex-basis: 100%;
+    padding: 0;
+  }
+
+ 
 
   .footer-container {
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    margin: 0 auto;
-    color: #fff;
   }
 
- .container footer {
-display: block;
- }
- 
+  header {
+    
+    background-color: gainsboro;
+  }
 
  
- 
+
+  footer {
+    
+    background-color: gainsboro;
+  }
+
+  main {
+    background-color: ;
+  }
